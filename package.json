@@ -1,0 +1,18 @@
+{
+  "name": "conceitos-do-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/italocedrosales/conceitos-do-nodejs.git",
+  "author": "Italo Cedro <italo.cedro.sales@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "desafio": "nodemon src/desafio.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
